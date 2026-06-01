@@ -24,3 +24,5 @@ SECRETS
 
 # Data
 data/
+checkpoints/
+outputs/

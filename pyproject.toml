@@ -17,3 +17,12 @@ dependencies = [
 
 [tool.setuptools.packages.find]
 include = ["src*", "evals*"]
+
+[project.optional-dependencies]
+unsloth = [
+    "unsloth",
+    "trl>=0.8.0",
+    "transformers>=4.40.0",
+    "datasets>=2.18.0",
+    "torch>=2.0.0",
+]
